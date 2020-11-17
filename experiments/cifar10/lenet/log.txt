@@ -1,0 +1,105 @@
+[2020-11-17 11:30:30,877] - [train.py line:171] : {'architecture': 'lenet', 'data_path': './data', 'ckpt_path': './', 'ckpt_name': 'lenet', 'num_classes': 10, 'dataset': 'cifar10', 'use_gpu': True, 'input_size': 32, 'epochs': 250, 'batch_size': 128, 'test_batch': 200, 'eval_freq': 2, 'workers': 4, 'optimize': {'momentum': 0.9, 'weight_decay': 0.0001, 'nesterov': True}, 'mixup': False, 'mixup_alpha': 0.4, 'augmentation': {'normalize': True, 'random_crop': True, 'random_horizontal_filp': True, 'cutout': False, 'holes': 1, 'length': 8}, 'lr_scheduler': {'type': 'STEP', 'base_lr': 0.1, 'lr_epochs': [100, 150, 200], 'lr_mults': 0.1, 'min_lr': 0.0, 'lower_bound': -6.0, 'upper_bound': 3.0}}
+[2020-11-17 11:30:30,879] - [train.py line:175] : LeNet(
+  (conv_1): Conv2d(3, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv_2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc_1): Linear(in_features=400, out_features=120, bias=True)
+  (fc_2): Linear(in_features=120, out_features=84, bias=True)
+  (fc_3): Linear(in_features=84, out_features=10, bias=True)
+)
+[2020-11-17 11:30:30,880] - [train.py line:176] :  == total parameters: 62006
+[2020-11-17 13:33:21,270] - [train.py line:171] : {'architecture': 'lenet', 'data_path': './data', 'ckpt_path': './', 'ckpt_name': 'lenet', 'num_classes': 10, 'dataset': 'cifar10', 'use_gpu': True, 'input_size': 32, 'epochs': 250, 'batch_size': 128, 'test_batch': 200, 'eval_freq': 2, 'workers': 4, 'optimize': {'momentum': 0.9, 'weight_decay': 0.0001, 'nesterov': True}, 'mixup': False, 'mixup_alpha': 0.4, 'augmentation': {'normalize': True, 'random_crop': True, 'random_horizontal_filp': True, 'cutout': False, 'holes': 1, 'length': 8}, 'lr_scheduler': {'type': 'STEP', 'base_lr': 0.1, 'lr_epochs': [100, 150, 200], 'lr_mults': 0.1, 'min_lr': 0.0, 'lower_bound': -6.0, 'upper_bound': 3.0}}
+[2020-11-17 13:33:21,272] - [train.py line:175] : LeNet(
+  (conv_1): Conv2d(3, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv_2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc_1): Linear(in_features=400, out_features=120, bias=True)
+  (fc_2): Linear(in_features=120, out_features=84, bias=True)
+  (fc_3): Linear(in_features=84, out_features=10, bias=True)
+)
+[2020-11-17 13:33:21,273] - [train.py line:176] :  == total parameters: 62006
+[2020-11-17 13:33:24,746] - [train.py line:214] :             =======  Training  =======
+
+[2020-11-17 13:33:24,748] - [train.py line: 50] :  === Epoch: [1/250] === 
+[2020-11-17 14:01:03,778] - [train.py line:171] : {'architecture': 'lenet', 'data_path': './data', 'ckpt_path': './', 'ckpt_name': 'lenet', 'num_classes': 10, 'dataset': 'cifar10', 'use_gpu': True, 'input_size': 32, 'epochs': 250, 'batch_size': 128, 'test_batch': 200, 'eval_freq': 2, 'workers': 4, 'optimize': {'momentum': 0.9, 'weight_decay': 0.0001, 'nesterov': True}, 'mixup': False, 'mixup_alpha': 0.4, 'augmentation': {'normalize': True, 'random_crop': True, 'random_horizontal_filp': True, 'cutout': False, 'holes': 1, 'length': 8}, 'lr_scheduler': {'type': 'STEP', 'base_lr': 0.1, 'lr_epochs': [100, 150, 200], 'lr_mults': 0.1, 'min_lr': 0.0, 'lower_bound': -6.0, 'upper_bound': 3.0}}
+[2020-11-17 14:01:03,780] - [train.py line:175] : LeNet(
+  (conv_1): Conv2d(3, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv_2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc_1): Linear(in_features=400, out_features=120, bias=True)
+  (fc_2): Linear(in_features=120, out_features=84, bias=True)
+  (fc_3): Linear(in_features=84, out_features=10, bias=True)
+)
+[2020-11-17 14:01:03,781] - [train.py line:176] :  == total parameters: 62006
+[2020-11-17 14:01:05,957] - [train.py line:214] :             =======  Training  =======
+
+[2020-11-17 14:01:05,958] - [train.py line: 50] :  === Epoch: [1/250] === 
+[2020-11-17 18:38:58,237] - [train.py line:173] : {'architecture': 'lenet', 'data_path': './data', 'ckpt_path': './', 'ckpt_name': 'lenet', 'num_classes': 10, 'dataset': 'cifar10', 'use_gpu': True, 'input_size': 32, 'epochs': 250, 'batch_size': 128, 'test_batch': 200, 'eval_freq': 2, 'workers': 4, 'optimize': {'momentum': 0.9, 'weight_decay': 0.0001, 'nesterov': True}, 'mixup': False, 'mixup_alpha': 0.4, 'augmentation': {'normalize': True, 'random_crop': True, 'random_horizontal_filp': True, 'cutout': False, 'holes': 1, 'length': 8}, 'lr_scheduler': {'type': 'STEP', 'base_lr': 0.1, 'lr_epochs': [100, 150, 200], 'lr_mults': 0.1, 'min_lr': 0.0, 'lower_bound': -6.0, 'upper_bound': 3.0}}
+[2020-11-17 18:38:58,240] - [train.py line:177] : LeNet(
+  (conv_1): Conv2d(3, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv_2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc_1): Linear(in_features=400, out_features=120, bias=True)
+  (fc_2): Linear(in_features=120, out_features=84, bias=True)
+  (fc_3): Linear(in_features=84, out_features=10, bias=True)
+)
+[2020-11-17 18:38:58,240] - [train.py line:178] :  == total parameters: 62006
+[2020-11-17 18:39:00,555] - [train.py line:216] :             =======  Training  =======
+
+[2020-11-17 18:39:00,555] - [train.py line: 52] :  === Epoch: [1/250] === 
+[2020-11-17 20:45:53,546] - [train.py line:171] : {'architecture': 'lenet', 'data_path': './data', 'ckpt_path': './', 'ckpt_name': 'lenet', 'num_classes': 10, 'dataset': 'cifar10', 'use_gpu': True, 'input_size': 32, 'epochs': 250, 'batch_size': 128, 'test_batch': 200, 'eval_freq': 2, 'workers': 4, 'optimize': {'momentum': 0.9, 'weight_decay': 0.0001, 'nesterov': True}, 'mixup': False, 'mixup_alpha': 0.4, 'augmentation': {'normalize': True, 'random_crop': True, 'random_horizontal_filp': True, 'cutout': False, 'holes': 1, 'length': 8}, 'lr_scheduler': {'type': 'STEP', 'base_lr': 0.1, 'lr_epochs': [100, 150, 200], 'lr_mults': 0.1, 'min_lr': 0.0, 'lower_bound': -6.0, 'upper_bound': 3.0}}
+[2020-11-17 20:45:53,549] - [train.py line:175] : LeNet(
+  (conv_1): Conv2d(3, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv_2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc_1): Linear(in_features=400, out_features=120, bias=True)
+  (fc_2): Linear(in_features=120, out_features=84, bias=True)
+  (fc_3): Linear(in_features=84, out_features=10, bias=True)
+)
+[2020-11-17 20:45:53,549] - [train.py line:176] :  == total parameters: 62006
+[2020-11-17 20:45:55,791] - [train.py line:214] :             =======  Training  =======
+
+[2020-11-17 20:45:55,791] - [train.py line: 50] :  === Epoch: [1/250] === 
+[2020-11-17 20:47:29,453] - [train.py line:173] : {'architecture': 'lenet', 'data_path': './data', 'ckpt_path': './', 'ckpt_name': 'lenet', 'num_classes': 10, 'dataset': 'cifar10', 'use_gpu': True, 'input_size': 32, 'epochs': 250, 'batch_size': 128, 'test_batch': 200, 'eval_freq': 2, 'workers': 4, 'optimize': {'momentum': 0.9, 'weight_decay': 0.0001, 'nesterov': True}, 'mixup': False, 'mixup_alpha': 0.4, 'augmentation': {'normalize': True, 'random_crop': True, 'random_horizontal_filp': True, 'cutout': False, 'holes': 1, 'length': 8}, 'lr_scheduler': {'type': 'STEP', 'base_lr': 0.1, 'lr_epochs': [100, 150, 200], 'lr_mults': 0.1, 'min_lr': 0.0, 'lower_bound': -6.0, 'upper_bound': 3.0}}
+[2020-11-17 20:47:29,455] - [train.py line:177] : LeNet(
+  (conv_1): Conv2d(3, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv_2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc_1): Linear(in_features=400, out_features=120, bias=True)
+  (fc_2): Linear(in_features=120, out_features=84, bias=True)
+  (fc_3): Linear(in_features=84, out_features=10, bias=True)
+)
+[2020-11-17 20:47:29,456] - [train.py line:178] :  == total parameters: 62006
+[2020-11-17 20:47:31,646] - [train.py line:216] :             =======  Training  =======
+
+[2020-11-17 20:47:31,647] - [train.py line: 52] :  === Epoch: [1/250] === 
+[2020-11-17 20:48:25,802] - [train.py line:173] : {'architecture': 'lenet', 'data_path': './data', 'ckpt_path': './', 'ckpt_name': 'lenet', 'num_classes': 10, 'dataset': 'cifar10', 'use_gpu': True, 'input_size': 32, 'epochs': 250, 'batch_size': 128, 'test_batch': 200, 'eval_freq': 2, 'workers': 4, 'optimize': {'momentum': 0.9, 'weight_decay': 0.0001, 'nesterov': True}, 'mixup': False, 'mixup_alpha': 0.4, 'augmentation': {'normalize': True, 'random_crop': True, 'random_horizontal_filp': True, 'cutout': False, 'holes': 1, 'length': 8}, 'lr_scheduler': {'type': 'STEP', 'base_lr': 0.1, 'lr_epochs': [100, 150, 200], 'lr_mults': 0.1, 'min_lr': 0.0, 'lower_bound': -6.0, 'upper_bound': 3.0}}
+[2020-11-17 20:48:25,805] - [train.py line:177] : LeNet(
+  (conv_1): Conv2d(3, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv_2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc_1): Linear(in_features=400, out_features=120, bias=True)
+  (fc_2): Linear(in_features=120, out_features=84, bias=True)
+  (fc_3): Linear(in_features=84, out_features=10, bias=True)
+)
+[2020-11-17 20:48:25,805] - [train.py line:178] :  == total parameters: 62006
+[2020-11-17 20:48:27,987] - [train.py line:216] :             =======  Training  =======
+
+[2020-11-17 20:48:27,988] - [train.py line: 52] :  === Epoch: [1/250] === 
+[2020-11-17 20:52:04,766] - [train.py line:173] : {'architecture': 'lenet', 'data_path': './data', 'ckpt_path': './', 'ckpt_name': 'lenet', 'num_classes': 10, 'dataset': 'cifar10', 'use_gpu': True, 'input_size': 32, 'epochs': 250, 'batch_size': 128, 'test_batch': 200, 'eval_freq': 2, 'workers': 0, 'optimize': {'momentum': 0.9, 'weight_decay': 0.0001, 'nesterov': True}, 'mixup': False, 'mixup_alpha': 0.4, 'augmentation': {'normalize': True, 'random_crop': True, 'random_horizontal_filp': True, 'cutout': False, 'holes': 1, 'length': 8}, 'lr_scheduler': {'type': 'STEP', 'base_lr': 0.1, 'lr_epochs': [100, 150, 200], 'lr_mults': 0.1, 'min_lr': 0.0, 'lower_bound': -6.0, 'upper_bound': 3.0}}
+[2020-11-17 20:52:04,768] - [train.py line:177] : LeNet(
+  (conv_1): Conv2d(3, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv_2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc_1): Linear(in_features=400, out_features=120, bias=True)
+  (fc_2): Linear(in_features=120, out_features=84, bias=True)
+  (fc_3): Linear(in_features=84, out_features=10, bias=True)
+)
+[2020-11-17 20:52:04,768] - [train.py line:178] :  == total parameters: 62006
+[2020-11-17 20:52:06,918] - [train.py line:216] :             =======  Training  =======
+
+[2020-11-17 20:52:06,919] - [train.py line: 52] :  === Epoch: [1/250] === 
+[2020-11-17 20:52:13,923] - [train.py line: 94] :    == step: [100/235], train loss: 2.175 | train acc: 18.961% | lr: 0.100000
+[2020-11-17 20:52:17,143] - [train.py line: 94] :    == step: [200/235], train loss: 2.121 | train acc: 21.008% | lr: 0.100000
+[2020-11-17 20:52:18,286] - [train.py line:104] :    == step: [235/235], train loss: 2.090 | train acc: 22.090% | lr: 0.100000
+[2020-11-17 20:52:18,286] - [train.py line:109] :    == cost time: 11.3676s
+[2020-11-17 20:52:18,288] - [train.py line:128] :  === Validate ===
+[2020-11-17 20:52:19,965] - [train.py line:143] :    == test loss: 1.928 | test acc: 29.060%
+[2020-11-17 20:52:19,990] - [train.py line: 52] :  === Epoch: [2/250] === 
+[2020-11-17 20:52:23,210] - [train.py line: 94] :    == step: [100/235], train loss: 1.818 | train acc: 31.625% | lr: 0.100000
+[2020-11-17 20:52:26,430] - [train.py line: 94] :    == step: [200/235], train loss: 1.822 | train acc: 32.031% | lr: 0.100000
+[2020-11-17 20:52:27,530] - [train.py line:104] :    == step: [235/235], train loss: 1.818 | train acc: 32.223% | lr: 0.100000
+[2020-11-17 20:52:27,530] - [train.py line:109] :    == cost time: 7.5403s
+[2020-11-17 20:52:27,530] - [train.py line:128] :  === Validate ===
